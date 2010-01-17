@@ -44,7 +44,7 @@ class First_timer
     var $version         = '1.0.1';
     var $description     = 'Lets you redirect a user to a specific page the first time they log in.';
     var $settings_exist  = 'y';
-    var $docs_url        = 'http://airbagindustries.com/software/ee/firsttimer/';
+    var $docs_url        = 'https://github.com/ryanirelan/ri.first_timer.ee_addon';
     
 	 	// ------------------------------
 		// Settings Pour mon Extension
@@ -59,8 +59,8 @@ class First_timer
 			
 			$settings = array();
 			
-			$settings['first_redirect'] = array('t', '', $r);
-			$settings['normal_redirect'] = array('t', '', $r); 
+			$settings['first_redirect'] = array('i', '', $r);
+			$settings['normal_redirect'] = array('i', '', $r); 
 			
 			return $settings;
 
