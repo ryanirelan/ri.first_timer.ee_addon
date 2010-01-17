@@ -59,8 +59,8 @@ class First_timer
 			
 			$settings = array();
 			
-			$settings['first_redirect'] = array('i', '', $r);
-			$settings['normal_redirect'] = array('i', '', $r); 
+			$settings['first_redirect'] = $r;
+			$settings['normal_redirect'] = $r;
 			
 			return $settings;
 
